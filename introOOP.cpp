@@ -1,10 +1,7 @@
+#include <iostream>
+using namespace std;
 
 
-class Mahasiswa {
-public:
-    int nim;
-    string nama;
-    float nilai;
 
     void printData() {
         cout << "NIM: " << nim << endl;
@@ -21,5 +18,5 @@ int main() {
 
     mhs.printData();
 
-    return 0;
+   
 }// batas main
