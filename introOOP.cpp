@@ -8,9 +8,7 @@ public:
     float nilai;
 
     void printData() {
-        cout << "NIM: " << nim << endl;
-        cout << "Nama: " << nama << endl;
-        cout << "Nilai: " << nilai << endl;
+        
     }
 }; // batas class
 
@@ -20,6 +18,7 @@ int main() {
     mhs.nama = "YonoKiwi";
     mhs.nilai = 89.5;
 
+    mhs.printData();
 
    
 }// batas main
