@@ -14,8 +14,8 @@ public:
     }
 }; // batas class
 
-
-    Mahasiswa mhs;
+int main() {
+    
     mhs.nim = 2026;
     mhs.nama = "YonoKiwi";
     mhs.nilai = 89.5;
