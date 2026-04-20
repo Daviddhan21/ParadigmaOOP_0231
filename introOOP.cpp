@@ -7,11 +7,14 @@ public:
     string nama;
     float nilai;
 
-    
+    void printData() {
+        cout << "NIM: " << nim << endl;
+        cout << "Nama: " << nama << endl;
+        cout << "Nilai: " << nilai << endl;
     }
 }; // batas class
 
-int main() {
+
     Mahasiswa mhs;
     mhs.nim = 2026;
     mhs.nama = "YonoKiwi";
